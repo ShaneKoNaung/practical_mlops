@@ -1,6 +1,6 @@
 install:
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+		pip install -r chapter1/requirements.txt
 
 lint:
 	pylint --disable=R,C main.py
