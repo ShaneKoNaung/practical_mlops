@@ -1,4 +1,4 @@
-// This is just sample code for python main.py
+# This is just sample code for python main.py 
 
 
 def add(x,y):
