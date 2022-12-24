@@ -10,11 +10,11 @@ jobs:
       with:
         python-version: 3.9.16
     - name: Install dependencies
-      run: |
+      run: cd chapter1 |
         make install
     - name: Lint
-      run: |
+      run: cd chapter1 |
         make lint
     - name: Test
-      run: |
+      run: cd chapter1|
         make test
